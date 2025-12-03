@@ -93,20 +93,20 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 302,
         "fields": {
-            "first_name": "Oliver P.",
-            "last_name": "Mees",
+            "first_name": "Chris A.",
+            "last_name": "Wallis",
             "election": 21,
-            "party": "Independent",
-            "state": "Massachusetts",
+            "party": "Liberal Socialist",
+            "state": "Washington",
             "priority": 3,
-            "description": "<p>Oliver Mees was born on the 28th of July 1977 in Boston, Massachusetts. He was a politically inactive person, and following his graduation from Harvard in 1999, he started working in Business. After a short time working for a company in Massachusetts, he decided to move to Ohio and start his own company. Over the next 20 years he managed a very successful business in an industrially idle state, he became incredibly popular amongst workers for his liberal trade stances and positive attitude towards unions. He stepped down and sold his share in the company he started (UniCo) for 1.5 Billion dollars in 2024. He received significant support in the heavily contested 2025 election from workers and Unions, also courting lobbyists and Super PACs. His campaign is the best funded and is wildly popular amongst Midwestern workers. He married in 2001 and has four children. He is running his 2025 Presidential campaign as an independent and moderate candidate.<p>\n",
-            "color_hex": "#ff0000",
+            "description": "<p>Christopher Wallis was born on March 17th 1983 in Spokane, Washington. His political career started in the Seattle State University where he served as a student representative. Following his graduation with a degree in Political Science, he entered a career as an analyst in 2005. In this time as an analyst, he joined and co-founded the Liberal-Socialist party. In 2009, aged 26, Chris ran for Spokane mayor, winning narrowly by 2.1%. In 2014 he ran for Washington state senate for the 6th District, winning in a very narrow election against Michael Baumgartner. He only left state politics in 2022 when he ran for Washington's fifth congressional district, winning and being elected to the United States senate. Since 2022 he has gained some nationwide popularity as an advocate for farming and nationalisation. His political platform is appealing to the plains region in the election of 2026. Now 43 years old, he is likely to play as a theoretical kingmaker. He has been married since 2013, and has a 1 child born in 2015.<p>\n",
+            "color_hex": "#ffaf00",
             "secondary_color_hex": "#FFFFC0",
             "is_active": 1,
-            "image_url": "https://i.postimg.cc/8kJGtC5J/Oli.png",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to the media and America alike, you have won the 2026 US Presidential Election. As an independent president, you will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Oliver Mees, you'll need it.</p>\n",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>Although you didn't expect to win, nobody thought you'd lose this badly. From here, you can run again in 2030, or run in your home state of Massachusetts for Senate or Governor. The choice is yours.</p>\n",
-            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>If you and the Liberal Socialist combined have 270 votes, you can get them onside if you promise to run a left-wing economic campaign. This will piss off your base so much, however, that many would say the best decision is the concede, and let Daniel work with Wallis and/or Cerantola, and pick up the scraps in 2030.</p>\n",
+            "image_url": "https://i.postimg.cc/tTF54Pk6/Chris.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to the media and America alike, you have won the 2026 US Presidential Election. Nobody thought a socialist could do it, but nobody thought so many things. You will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Chris Wallis, you'll need it.</p>\n",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>But all is not lost. You can still run for Governor of Washington, or run again in 2030. Alternatively, both the Progressive Party and the Democrats have said they will back your campaign for Governor, or you could join as a possible 2030 VP. Needless to say, you have free reign. Good luck Chris.</p>\n",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>Depending on who has the numbers, you can work with any party. Let's see who offers you the Vice Presidency, and who will take a strong socialist economic stance.</p>\n",
             "description_as_running_mate": "'",
             "candidate_score": 1,
             "running_mate": false
@@ -116,20 +116,20 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 303,
         "fields": {
-            "first_name": "Chris A.",
-            "last_name": "Wallis",
+            "first_name": "Oliver P.",
+            "last_name": "Mees",
             "election": 21,
-            "party": "Liberal Socialist",
-            "state": "Washington",
+            "party": "Independent",
+            "state": "Massachusetts",
             "priority": 4,
-            "description": "<p>Christopher Wallis was born on March 17th 1983 in Spokane, Washington. His political career started in the Seattle State University where he served as a student representative. Following his graduation with a degree in Political Science, he entered a career as an analyst in 2005. In this time as an analyst, he joined and co-founded the Liberal-Socialist party. In 2009, aged 26, Chris ran for Spokane mayor, winning narrowly by 2.1%. In 2014 he ran for Washington state senate for the 6th District, winning in a very narrow election against Michael Baumgartner. He only left state politics in 2022 when he ran for Washington's fifth congressional district, winning and being elected to the United States senate. Since 2022 he has gained some nationwide popularity as an advocate for farming and nationalisation. His political platform is appealing to the plains region in the election of 2026. Now 43 years old, he is likely to play as a theoretical kingmaker. He has been married since 2013, and has a 1 child born in 2015.<p>\n",
-            "color_hex": "#ffaf00",
+            "description": "<p>Oliver Mees was born on the 28th of July 1977 in Boston, Massachusetts. He was a politically inactive person, and following his graduation from Harvard in 1999, he started working in Business. After a short time working for a company in Massachusetts, he decided to move to Ohio and start his own company. Over the next 20 years he managed a very successful business in an industrially idle state, he became incredibly popular amongst workers for his liberal trade stances and positive attitude towards unions. He stepped down and sold his share in the company he started (UniCo) for 1.5 Billion dollars in 2024. He received significant support in the heavily contested 2025 election from workers and Unions, also courting lobbyists and Super PACs. His campaign is the best funded and is wildly popular amongst Midwestern workers. He married in 2001 and has four children. He is running his 2025 Presidential campaign as an independent and moderate candidate.<p>\n",
+            "color_hex": "#ff0000",
             "secondary_color_hex": "#A1FFA1",
             "is_active": 1,
-            "image_url": "https://i.postimg.cc/tTF54Pk6/Chris.png",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to the media and America alike, you have won the 2026 US Presidential Election. Nobody thought a socialist could do it, but nobody thought so many things. You will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Chris Wallis, you'll need it.</p>\n",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>But all is not lost. You can still run for Governor of Washington, or run again in 2030. Alternatively, both the Progressive Party and the Democrats have said they will back your campaign for Governor, or you could join as a possible 2030 VP. Needless to say, you have free reign. Good luck Chris.</p>\n",
-            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>Depending on who has the numbers, you can work with any party. Let's see who offers you the Vice Presidency, and who will take a strong socialist economic stance.</p>\n",
+            "image_url": "https://i.postimg.cc/8kJGtC5J/Oli.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to the media and America alike, you have won the 2026 US Presidential Election. As an independent president, you will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Oliver Mees, you'll need it.</p>\n",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>Although you didn't expect to win, nobody thought you'd lose this badly. From here, you can run again in 2030, or run in your home state of Massachusetts for Senate or Governor. The choice is yours.</p>\n",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>If you and the Liberal Socialist combined have 270 votes, you can get them onside if you promise to run a left-wing economic campaign. This will piss off your base so much, however, that many would say the best decision is the concede, and let Daniel work with Wallis and/or Cerantola, and pick up the scraps in 2030.</p>\n",
             "description_as_running_mate": "'",
             "candidate_score": 1,
             "running_mate": false
@@ -387,34 +387,34 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 101789,
+        "pk": 118451,
         "fields": {
-            "candidate": 302,
+            "candidate": 300,
+            "running_mate": 313
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109245,
+        "fields": {
+            "candidate": 303,
             "running_mate": 309
         }
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 174879,
+        "pk": 168839,
         "fields": {
-            "candidate": 302,
+            "candidate": 303,
             "running_mate": 310
         }
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 122787,
+        "pk": 162897,
         "fields": {
-            "candidate": 303,
+            "candidate": 302,
             "running_mate": 311
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 118451,
-        "fields": {
-            "candidate": 300,
-            "running_mate": 313
         }
     }
 ]
