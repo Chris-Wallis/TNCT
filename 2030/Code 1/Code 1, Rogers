@@ -318,6 +318,29 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": true
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Sean E.",
+            "last_name": "Miller",
+            "election": 21,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a80000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/QxD7pCkM/Sean.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Sean Miller was born on the 17th of September 1968 in Cheyenne, Wyoming. He has lived his entire life in Wyoming, graduating from College in 1990, he entered the political scene in 2002 after a career in business and lobbying. Sean ran for governor of Wyoming and narrowly won his term. He ran his administration as a fiscally responsible and socially moderate politician, balancing the budget and providing plenty of essential services to those in need. He won re-election in 2006 and continued his term. Despite the GFC in 2008, he maintained high popularity due to efforts to combat the effects of the recession. He challenged the legality of term limits in 2010, gaining his right to run for a third term, and winning. After 16 years as the extremely popular governor, he left office and ran for senate in 2018, winning the seat and entering National Politics. He has diligently served for the interests of his state for the last eight years, and is widely popular, winning elections by significant margins. He has chaired a couple senate committees, and had a good friendship with Mitt Romney. Miller will give a big boost in Wyoming if selected.<p>\n",
+            "candidate_score": 1,
+            "running_mate": true
+        }
     }
 ]
 
@@ -384,6 +407,14 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 302,
             "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 167877,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 50000
         }
     }
 ]
@@ -455,4 +486,3 @@ document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dda1c4!important;}</style>";
 
 //#endcode
-
