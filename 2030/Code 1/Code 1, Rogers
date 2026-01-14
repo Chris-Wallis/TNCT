@@ -29,7 +29,7 @@ campaignTrail_temp.election_json = [
         "pk": 21,
         "fields": {
             "year": 2020,
-            "summary": "After winning Minnesota by just 193 votes against Chris Wallis, the Rogers/Pathirana ticket won a majority of the electoral college. In the Senate, the Progressive Party’s policy has been passed with the help of the Liberal Socialists, who combine for a strong majority. In the House, the Greens are also needed for legislation, who have been surprisingly co-operative. However, relations between the Progressives and the Liberal Socialists have slowly waned, finally reaching a climax after they repeatedly blocked the introduction of a national basic income. This argument has not been solved, as both sides campaign heavily. Meanwhile, Oliver Mees is back for round 2, with the support of the American Unity party, aiming to capitalise on the tension on his left, and former Alabama Senator Holly Brennan is hoping to deadlock the college running on a strong conservative platform. It’s anybody’s election, however Rogers and Pathirana, especially Pathirana, may have too much popularity to overcome.",
+            "summary": "After winning Florida by just 193 votes against Oliver Mees, the Rogers/Pathirana ticket won a majority of the electoral college. In the Senate, the Progressive Party’s policy has been passed with the help of the Liberal Socialists, who combine for a strong majority. In the House, the Greens are also needed for legislation, who have been surprisingly co-operative. However, relations between the Progressives and the Liberal Socialists have slowly waned, finally reaching a climax after they repeatedly blocked the introduction of a national basic income. This argument has not been solved, as both sides campaign heavily. Meanwhile, Oliver Mees is back for round 2, with the support of the American Unity party, aiming to capitalise on the tension on his left, and former Alabama Senator Holly Brennan is hoping to deadlock the college running on a strong conservative platform. It’s anybody’s election, however Rogers and Pathirana, especially Pathirana, may have too much popularity to overcome.",
             "image_url": "https://i.postimg.cc/6pxspLB6/oli-vs-daniel.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
@@ -455,3 +455,4 @@ document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dda1c4!important;}</style>";
 
 //#endcode
+
