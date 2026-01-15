@@ -8177,7 +8177,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6010,
             "candidate": 300,
             "affected_candidate": 300,
-            "global_multiplier": 0.00008
+            "global_multiplier": -0.042
         }
     },
     {
@@ -8195,6 +8195,26 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42777,
         "fields": {
             "answer": 41594,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42778,
+        "fields": {
+            "answer": 6008,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42779,
+        "fields": {
+            "answer": 6009,
             "candidate": 300,
             "affected_candidate": 300,
             "global_multiplier": -0.05
@@ -9970,9 +9990,9 @@ campaignTrail_temp.answer_feedback_json = [
 ]
 
 campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/cL7JxJy5/Daniel.png";
-campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/y8XscrNT/Santhush.png";
+campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/gjn2Ky7b/Randan.png";
 campaignTrail_temp.candidate_last_name = "Rogers";
-campaignTrail_temp.running_mate_last_name = "Pathirana";
+campaignTrail_temp.running_mate_last_name = "Cerantola";
 
 campaignTrail_temp.multiple_endings = true;
 endingPicker = (out, totv, aa, quickstats) => {
@@ -10014,9 +10034,9 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
         "canName": "Rogers",
-        "runName": "Pathirana",
+        "runName": "Cerantola",
         "canImage": "https://i.postimg.cc/cL7JxJy5/Daniel.png",
-        "runImage": "https://i.postimg.cc/y8XscrNT/Santhush.png"
+        "runImage": "https://i.postimg.cc/gjn2Ky7b/Randan.png"
     },
     "endings_enabled": true,
     "ending_data": {
