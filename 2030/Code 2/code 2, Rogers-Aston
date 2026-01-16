@@ -8177,6 +8177,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 301,
             "global_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42772,
+        "fields": {
+            "answer": 6008,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42773,
+        "fields": {
+            "answer": 6009,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42774,
+        "fields": {
+            "answer": 6010,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "global_multiplier": -0.05
+        }
     }
 ]
 
@@ -8206,7 +8236,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 42613,
         "fields": {
             "answer": 6000,
-            "issue": "110",
+            "issue": 110,
             "issue_score": 1,
             "issue_importance": 1
         }
@@ -8216,7 +8246,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 42614,
         "fields": {
             "answer": 6001,
-            "issue": "110",
+            "issue": 110,
             "issue_score": 1,
             "issue_importance": 1
         }
@@ -8226,7 +8256,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 42615,
         "fields": {
             "answer": 6002,
-            "issue": "110",
+            "issue": 110,
             "issue_score": 0.95,
             "issue_importance": 1
         }
@@ -8236,7 +8266,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 42616,
         "fields": {
             "answer": 6003,
-            "issue": "110",
+            "issue": 110,
             "issue_score": 0.6,
             "issue_importance": 1
         }
@@ -8316,7 +8346,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 42726,
         "fields": {
             "answer": 6064,
-            "issue": "110",
+            "issue": 110,
             "issue_score": 1,
             "issue_importance": 2
         }
@@ -9542,7 +9572,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6016,
             "candidate": 300,
-            "answer_feedback": "This gets through the Senate and the House of Reps with the support of AU and the Greens, whilst the Liberal Socialists abstained.  \n"
+            "answer_feedback": "This gets through the Senate and the House of Reps with the support of AU and the Greens, whilst the Liberal Socialists abstained. \n"
         }
     },
     {
@@ -10034,9 +10064,9 @@ campaignTrail_temp.answer_feedback_json = [
 ]
 
 campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/cL7JxJy5/Daniel.png";
-campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/y8XscrNT/Santhush.png";
+campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/g29TyvS5/Charlie.png";
 campaignTrail_temp.candidate_last_name = "Rogers";
-campaignTrail_temp.running_mate_last_name = "Pathirana";
+campaignTrail_temp.running_mate_last_name = "Aston";
 
 campaignTrail_temp.multiple_endings = true;
 endingPicker = (out, totv, aa, quickstats) => {
@@ -10054,7 +10084,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 
     if(quickstats[0] > 270) {
         setImage("https://i.postimg.cc/cL7JxJy5/Daniel.png");
-        return `<h3> Breaking news! Daniel Rogers' Progressive Party elected in majority!<h3><p>Whilst you were the favourite to win re-election, it is still a happy moment for you to see all your hard work pay off.  Unless you've done super well, you still have a hostile House and Senate to deal with, and the Liberal Socialists will try to force socialism upon you at any cost. Mees and Wallis have both said they won't recontest, and Pathirana looks the strong favourite for 2034. Anyways, good luck for your second term!
+        return `<h3> Breaking news! Daniel Rogers' Progressive Party elected in majority!<h3><p>Whilst you were the favourite to win re-election, it is still a happy moment for you to see all your hard work pay off. Unless you've done super well, you still have a hostile House and Senate to deal with, and the Liberal Socialists will try to force socialism upon you at any cost. Mees and Wallis have both said they won't recontest, and Pathirana looks the strong favourite for 2034. Anyways, good luck for your second term!
 </p>`;
     }
     if(quickstats[0] < 100) {
@@ -10078,9 +10108,9 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
         "canName": "Rogers",
-        "runName": "Pathirana",
+        "runName": "Aston",
         "canImage": "https://i.postimg.cc/cL7JxJy5/Daniel.png",
-        "runImage": "https://i.postimg.cc/y8XscrNT/Santhush.png"
+        "runImage": "https://i.postimg.cc/g29TyvS5/Charlie.png"
     },
     "endings_enabled": true,
     "ending_data": {
@@ -10090,7 +10120,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "https://i.postimg.cc/cL7JxJy5/Daniel.png",
-            "endingText": "<h3> Breaking news! Daniel Rogers' Progressive Party elected in majority!<h3><p>Whilst you were the favourite to win re-election, it is still a happy moment for you to see all your hard work pay off.  Unless you've done super well, you still have a hostile House and Senate to deal with, and the Liberal Socialists will try to force socialism upon you at any cost. Mees and Wallis have both said they won't recontest, and Pathirana looks the strong favourite for 2034. Anyways, good luck for your second term!\n</p>",
+            "endingText": "<h3> Breaking news! Daniel Rogers' Progressive Party elected in majority!<h3><p>Whilst you were the favourite to win re-election, it is still a happy moment for you to see all your hard work pay off. Unless you've done super well, you still have a hostile House and Senate to deal with, and the Liberal Socialists will try to force socialism upon you at any cost. Mees and Wallis have both said they won't recontest, and Pathirana looks the strong favourite for 2034. Anyways, good luck for your second term!\n</p>",
             "amount": "270"
         },
         "1762321275505": {
