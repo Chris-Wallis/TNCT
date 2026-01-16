@@ -368,7 +368,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6022,
         "fields": {
             "question": 1206,
-            "description": "In any election, it’s always best to just ignore any third party candidate. Especially one that won’t take any vote from you. Leave the slandering to Mees.\n"
+            "description": "In any election, it’s always best to just ignore any third party candidate. However, if we can sneakily try to move some Mees voters towards Brennan, by highlighting certain similarities, this might sneakily work…\n"
         }
     },
     {
@@ -384,7 +384,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6024,
         "fields": {
             "question": 1206,
-            "description": "In any election, it’s always best to just ignore any third party candidate. Especially one that won’t take any vote from you. Leave the slandering to Mees.\n"
+            "description": "In any election, it’s always best to just ignore any third party candidate. However, if we can sneakily try to move some Mees voters towards Brennan, by highlighting certain similarities, this might sneakily work…\n"
         }
     },
     {
@@ -7146,8 +7146,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 6023,
             "candidate": 300,
-            "affected_candidate": 301,
-            "global_multiplier": 0.05
+            "affected_candidate": 303,
+            "global_multiplier": -0.05
         }
     },
     {
@@ -9552,7 +9552,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6023,
             "candidate": 300,
-            "answer_feedback": "Good idea, however it doesn’t really have any impact.\n"
+            "answer_feedback": "Mees ain’t gonna say anything though, he wants Brennan ignored as much as possible.\n"
         }
     },
     {
@@ -9858,7 +9858,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42188,
             "candidate": 300,
-            "answer_feedback": "You try to continue your speech, but your words aren’t clear, your vision blurs. Your body is..so cold. At the end of it, you’re still rushed to hospital. Immediate surgery and blood transfusions aren’t successful enough, and soon after, you are pronounced dead. Santhush is immediately thrust into the limelight as the Progressive candidate, he chooses to pick former Nevada governor Charlie Aston as his VP.\n"
+            "answer_feedback": "Mentioning your strong steps toward public healthcare will always help you, and tying it to the UBI is a great move.\n"
         }
     },
     {
