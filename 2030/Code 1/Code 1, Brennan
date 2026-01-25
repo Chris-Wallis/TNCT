@@ -68,7 +68,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 300,
+        "pk": 301,
         "fields": {
             "first_name": "Oliver P.",
             "last_name": "Mees",
@@ -403,18 +403,18 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 161856,
-        "fields": {
-            "candidate": 300,
-            "running_mate": 313
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 165787,
         "fields": {
             "candidate": 303,
             "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 170033,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 313
         }
     }
 ]
@@ -426,7 +426,7 @@ campaignTrail_temp.opponents_default_json = [
         "election": 21,
         "candidates": [
             303,
-            300,
+            301,
             302,
             300
         ]
@@ -438,7 +438,7 @@ campaignTrail_temp.opponents_weighted_json = [
         "election": 21,
         "candidates": [
             303,
-            300,
+            301,
             302,
             300
         ]
