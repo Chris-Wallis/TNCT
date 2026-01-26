@@ -1,0 +1,480 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p>After winning Illinois by just 243 votes, the Mees/Reynolds ticket won a majority of the electoral college. In the Senate and House of Representatives, conversely, the newly founded American Unity (who Mees belongs to) have found life difficult, since AU require both the Liberal Socialists and the Greens or the Progressives. The Mees administration has been viewed to be inoffensive, however a bit more left leaning than others thought. In response, conservatives and moderates have rallied around Brayden Waddell, who is running for the Forward USA Party On the left, Santhush Pathirana has taken over the Progressive Party, and has chosen Nevada's Charlie Aston for VP. Chris Wallis and the Lib Socs are running again, with Luka Roberts as VP. Whilst the Mees government is very popular, they have lost the support of tactically voting conservatives that they had in 2026.",
+            "image_url": "https://i.postimg.cc/rsPypyrq/pathiranamees.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2030"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Oliver P.",
+            "last_name": "Mees",
+            "election": 21,
+            "party": "Independent",
+            "state": "Massachusetts",
+            "priority": 2,
+            "description": "<p>Oliver Mees was born on the 28th of July 1977 in Boston, Massachusetts. He was a politically inactive person, and following his graduation from Harvard in 1999, he started working in Business. After a short time working for a company in Massachusetts, he decided to move to Ohio and start his own company. Over the next 20 years he managed a very successful business in an industrially idle state, he became incredibly popular amongst workers for his liberal trade stances and positive attitude towards unions. He stepped down and sold his share in the company he started (UniCo) for 1.5 Billion dollars in 2024. He received significant support in the heavily contested 2025 election from workers and Unions, also courting lobbyists and Super PACs. His campaign is the best funded and is wildly popular amongst Midwestern workers. He married in 2001 and has four children. He is running his 2025 Presidential campaign as an independent and moderate candidate.\n<p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/8kJGtC5J/Oli.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to media and America alike, you have won the 2026 US Presidential Election. As an independent president, you will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Oliver Mees, you'll need it.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>Although you didn't expect to win, nobody thought you'd lose this badly. From here, you can run again in 2030, or run in your home state of Massachusetts for Senate or Governor. The choice is yours.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>If you and the Liberal Socialist combined have 270 votes, you can get them onside if you promise to run a left-wing economic campaign. This will piss off your base so much, however, that many would say the best decision is the concede, and let Daniel work with Wallis and/or Cerantola, and pick up the scraps in 2030.</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Chris A.",
+            "last_name": "Wallis",
+            "election": 21,
+            "party": "Liberal Socialist",
+            "state": "Washington",
+            "priority": 3,
+            "description": "<p>Christopher Wallis was born on March 17th 1983 in Spokane, Washington. His political career started in the Seattle State University where he served as a student representative. Following his graduation with a degree in Political Science, he entered a career as an analyst in 2005. In this time as an analyst, he joined and co-founded the Liberal-Socialist party. In 2009, aged 26, Chris ran for Spokane mayor, winning narrowly by 2.1%. In 2014 he ran for Washington state senate for the 6th District, winning in a very narrow election against Michael Baumgartner. He only left state politics in 2022 when he ran for Washington's fifth congressional district, winning and being elected to the United States senate. Since 2022 he has gained some nationwide popularity as an advocate for farming and nationalisation. His political platform is appealing to the plains region in the election of 2026. Now 43 years old, he is likely to play as a theoretical kingmaker. He has been married since 2013, and has a 1 child born in 2015.\n<p>",
+            "color_hex": "#ff9500",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/tTF54Pk6/Chris.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to media and America alike, you have won the 2026 US Presidential Election. Nobody thought a socialist could do it, but nobody thought so many things. You will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Chris Wallis, you'll need it.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>But all is not lost. You can still run for Governor of Washington, or run again in 2030. Alternatively, both the Progressive Party and the Democrats have said they will back your campaign for Governor, or you could join as a possible 2030 VP. Needless to say, you have free reign. Good luck Chris.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>Depending on who has the numbers, you can work with any party. Let's see who offers you the Vice Presidency, and strong economic pressure.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Brayden",
+            "last_name": "Waddell",
+            "election": 21,
+            "party": "Forward USA",
+            "state": "Ohio",
+            "priority": 4,
+            "description": "Bayden Waddell was born on the 7th of July 1963 in Columbus, Ohio. Brayden was a conscientious student, who became heavily intrigued in the growing technology of the day. He began working in computers and began a technology business in 1991. He was a notable and large donor of Mitt Romney’s 2012 campaign. After over a decade in business, Brayden sold his business for 253 million dollars in 2014, and endorsed Donald Trump’s campaign for president in 2015 and 2016. His passionate support for the president netted him the position of Director of National Intelligence. He served the administration until their defeat in the 2020 election. Following Trump's defeat, he decried the poor sportsmanship and attempts to overturn the election. His switch led to a more favourable light being shone on him. Under the Biden administration, he ran for governor of Ohio, but lost the primaries in 2022. After the Trump return in 2024, he refused to cooperate and became an opponent in tune with Mitt Romney, someone whom he became a close ally of (Their policies are very similar). Brayden hasn’t made any comment on the 2026 revolution, but hasn’t been against the entire thing.",
+            "color_hex": "#ff6400",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>What the actual fuck. What just happened. You're... the president? You'll have an angry, united Congress against you, but you'll try your best. Good luck!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>This was expected. You join Ross Perot, Gary Johnson, George Wallace and other great men who have had failed third party candidacies. From here, you can run in 2030, run for Maine Senator or Governor, or join the Progressive Party in an Alliance. The choice is yours. </p>",
+            "no_electoral_majority_message": "<h3>No candidate has a majority.</h3><p>Chris and Oliver won't work with you, but Daniel will. If the two of you can form a EC majority, you may pinch the Vice Presidency! If not, you've still run a good campaign, and in 2034 you are poised to run again.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Santhush A.",
+            "last_name": "Pathirana",
+            "election": 21,
+            "party": "Progressive",
+            "state": "Pennsylvania",
+            "priority": 5,
+            "description": "<p>Santhush was born to Sri Lankan Immigrant parents on the 19th of April 1994 in Philadelphia, Pennsylvania. He spent his early life in the state before moving to California to attend College. Whilst at Stanford, he met the Alumnus Daniel Rogers, seven years his senior. They became friends and Santhush worked in his campaigns for many years, even becoming his campaign manager. Santhush holds left positions but is more moderate than Daniel, and is extremely popular amongst immigrants and minorities as the only possible candidate who will be one of them. Whilst he has no political experience, he has worked on campaigns before and has been in Daniel’s Congressional staff for years. He is an avid and youthful campaigner, but is very prone to gaffes and that would be something to look out for. However, he does have the scars of 2026, and his links to that campaign hurt him severely.\n",
+            "color_hex": "#a500a5",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/y8XscrNT/Santhush.png",
+            "electoral_victory_message": "daniel pls write",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Santhush has been your Vice President for the last four years, and is one of the most popular politicians in the country. He brings in a strong connection with immigrants, and is quite popular with both your base and swing voters, and has more positive relations with Wallis than you. He may be a little bit gaffe prone, but his results are second to none. ",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 308,
+        "fields": {
+            "first_name": "Charlie R. ",
+            "last_name": "Aston",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Nevada",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/g29TyvS5/Charlie.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Charlie Aston was born in Nevada to a white mother and Native American mother on the 29th of July 1963. He is a true centrist and moderate. He lived a regular life until 1990 when he ran for Nevada’s 25th district, winning and holding that seat until 1994. Following his loss in 1994 to Brian Sandoval, he  returned to his previous law practice. Becoming a very well known political and law figure in Nevada over the next few years, he was appointed the Attorney General of Nevada in 2007, and his terms lasted until 2015. Following the end of his two terms, he ran for Governor of Nevada in 2018, winning the election narrowly. He was a relatively popular governor, but was swept up in the 2022 elections, and failed to win re-election. After his loss, he became a popular demagogue for the democratic party, and would be a good conciliatory VP choice, especially if you're looking to attack Wallis.\n<p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Macsen L.",
+            "last_name": "Reynolds",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Florida",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/QMKLS48n/Macsen.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Macsen Reynolds is a moderate Democrat, and one of the only Southerners in this campaign. After running a strong campaign with him in 2026, Macsen Reynolds would be a popular returning choice. He is still very popular in the South, and is very good with former Democrat voters. He will help you a lot in Georgia and Florida, and even in North Carolina and Texas. However, you've already lost an election with him as VP, and many wonder if he's the safe choice, and not the best choice.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 310,
+        "fields": {
+            "first_name": "Athan",
+            "last_name": "Komninos",
+            "election": 21,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/CMcZf71k/Athan.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Athanasios is a Jewish Greek son of immigrants born in New York City on the 7th of October 1957. He is mildly conservative but isn’t a member of a specific wing, only a strict member of the establishment. He is a businessman and wall street broker who advocates for further capitalism. He has unclear social positions. He’s worked in consulting, brokering and lobbying for his entire life past college graduation. He has little political experience, only serving as a campaign manager for Donald Trump in 2016 and George W. Bush in 2004. He endorsed nobody for president in 2024, so has no unfortunate ties to unpopular politicians. He’s not exceptionally popular, but could provide a lot of money and establishment support to anyone who runs with him. He is a staunch supporter of Israel and worked with Andrew Cuomo’s governorship.\n<p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 311,
+        "fields": {
+            "first_name": "Joel S.",
+            "last_name": "Tompkins",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Rhode Island",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#0800ff",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/WzdsZMWY/Joel.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "Joel Thompson was born on the 19th of March 1950 in Providence, Rhode Island. Raised in the city, he also attended College there and eventually entered the working scene there as well. He entered politics in 1984 when he ran for Lieutenant governor, winning by a relatively comfortable margin. He was re-elected in 1986, 1988, 1990, and 1992. In 1994 he decided not to seek re-election, and retired to run for Governor. He successfully gained the nomination and won as the Democratic Party candidate in 1994. He was re-elected in 1998, but was term-limited after that. He stayed away after 2002, until 2006 when he ran, and won the Senatorial election. He’s popular in the northeast and decently well-known nationally. Having served as a governor, lieutenant governor, and now senator for 20 years, he’s a very experienced pick, and would reconcile a large amount of those who previously voted Democrat.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 313,
+        "fields": {
+            "first_name": "Robbie",
+            "last_name": "Pilato",
+            "election": 21,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 14,
+            "description": " ",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/Fs28JTBF/Robbie.png",
+            "electoral_victory_message": " ",
+            "electoral_loss_message": " ",
+            "no_electoral_majority_message": " ",
+            "description_as_running_mate": "<p>Robbie Pilato was born in Trenton, New Jersey on the 5th of September 1966. He worked in engineering and manufacturing for 20 years until the age of 40, when he ran for Newark Mayor, and lost to Cory Booker. Following this embarrassing defeat, he stepped away from politics for a few years before a return in 2010 when he ran for New Jersey State Congressman for the 2nd district. He served that position until 2017 when he resigned following his appointment as the United States Secretary for Labour. He served the Trump administration until 2021, when they lost Re-election. He declined any involvement with the Trump administration past 2024, and regained some political reputation due to that. He has been a minor vocal opponent of Donald Trump, but is a conservative politician who could make your ticket plausible to those in the Midwest.<p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Randan D. Y.",
+            "last_name": "Cerantola",
+            "election": 21,
+            "party": "Green",
+            "state": "Maine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00993b",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/gjn2Ky7b/Randan.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>After being the Green Party candidate in 2026, picking former rival Randan Cerantola would certainly be a controversial decision. Whilst many of your social views are similar, his staunch NIMBYism and conservation policies are starkly different to your style of left-wing progressivism. He will help you in New England, but hurt you in the Midwest, and could cause some of your base to move towards Wallis. Having him as your VP will also anger black voters, who are angry with Santhush's removal from the ticket. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Luka",
+            "last_name": "Roberts",
+            "election": 21,
+            "party": "Independent",
+            "state": "Colorado",
+            "priority": 1,
+            "description": "<p></p>",
+            "color_hex": "#7d7d7d",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Luka Roberts is the incumbent 47 year old Mayor of Florence, Colorado, where ADX Florence is located. He is known for being tough on crime, especially gun violence, however also slightly progressive - similar to Rogers.  He is a former member of the Libertarian Party. He will help in Colorado and New Mexico, and maybe even in Texas, however besides having good crime credentials, is quite similar to you.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Sean E.",
+            "last_name": "Miller",
+            "election": 21,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a80000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/QxD7pCkM/Sean.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Sean Miller was born on the 17th of September 1968 in Cheyenne, Wyoming. He has lived his entire life in Wyoming, graduating from College in 1990, he entered the political scene in 2002 after a career in business and lobbying. Sean ran for governor of Wyoming and narrowly won his term. He ran his administration as a fiscally responsible and socially moderate politician, balancing the budget and providing plenty of essential services to those in need. He won re-election in 2006 and continued his term. Despite the GFC in 2008, he maintained high popularity due to efforts to combat the effects of the recession. He challenged the legality of term limits in 2010, gaining his right to run for a third term, and winning. After 16 years as the extremely popular governor, he left office and ran for senate in 2018, winning the seat and entering National Politics. He has diligently served for the interests of his state for the last eight years, and is widely popular, winning elections by significant margins. He has chaired a couple senate committees, and had a good friendship with Mitt Romney. Miller will give a big boost in Wyoming if selected.<p>\n",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Chris A.",
+            "last_name": "Wallis",
+            "election": 21,
+            "party": "Liberal Socialist",
+            "state": "Washington",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffa200",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/tTF54Pk6/Chris.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Well, well, well. Whilst he never would have consented to forming government with Daniel, Chris Wallis and the Liberal Socialists would consider being part of your campaign. It would require strong economic concessions, such as supporting state owned energy, healthcare, grocery stores and more, but won't cost you any room socially. If you do this, the working class, unions, and big business will all ditch your campaign, but Wallis is such a strong figure that it might be worth it. Also, don't expect any help from Rogers either. </p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 205,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 309
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 206,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 310
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 179334,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 313
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 147957,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 105091,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 308
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 131757,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 311
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 98486,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 80874,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 50000
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Chris Wallis, Daniel Rogers"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            301,
+            302,
+            303,
+            300
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            301,
+            302,
+            303,
+            300
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2030"
+    }
+]
+
+jet_data = {
+    "headerColor": "#70004d",
+    "windowColor": "#e1d5de",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#dda1c4",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#70004d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e1d5de";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dda1c4!important;}</style>";
+
+//#endcode
