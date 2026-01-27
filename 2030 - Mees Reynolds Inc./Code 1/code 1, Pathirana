@@ -100,7 +100,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Ohio",
             "priority": 4,
             "description": "Bayden Waddell was born on the 7th of July 1963 in Columbus, Ohio. Brayden was a conscientious student, who became heavily intrigued in the growing technology of the day. He began working in computers and began a technology business in 1991. He was a notable and large donor of Mitt Romney’s 2012 campaign. After over a decade in business, Brayden sold his business for 253 million dollars in 2014, and endorsed Donald Trump’s campaign for president in 2015 and 2016. His passionate support for the president netted him the position of Director of National Intelligence. He served the administration until their defeat in the 2020 election. Following Trump's defeat, he decried the poor sportsmanship and attempts to overturn the election. His switch led to a more favourable light being shone on him. Under the Biden administration, he ran for governor of Ohio, but lost the primaries in 2022. After the Trump return in 2024, he refused to cooperate and became an opponent in tune with Mitt Romney, someone whom he became a close ally of (Their policies are very similar). Brayden hasn’t made any comment on the 2026 revolution, but hasn’t been against the entire thing.",
-            "color_hex": "#ff6400",
+            "color_hex": "#47a0ff",
             "secondary_color_hex": "#A1FFA1",
             "is_active": 1,
             "image_url": "",
@@ -403,9 +403,9 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 80874,
+        "pk": 167396,
         "fields": {
-            "candidate": 302,
+            "candidate": 300,
             "running_mate": 50000
         }
     }
