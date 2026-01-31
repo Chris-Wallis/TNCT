@@ -58,7 +58,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1225,
         "fields": {
             "priority": 4,
-            "description": "In your 2026 campaign, and subsequent House elections, you’ve talked frequently about your plans to increase housing supply by building affordable housing in the cities. With Cerantola as your VP, will you change this contentious policy?\n",
+            "description": "Last election, Green candidate Randan Cerantola caused vote splitting in your left flank. Now that he’s not running, will you take any steps to get him to join your party? \n",
             "likelihood": 1
         }
     },
@@ -744,7 +744,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6092,
         "fields": {
             "question": 1225,
-            "description": "This is a core piece of our campaign, and we ain’t changing it. Randan knows this, and he’ll just have to deal with it. \n"
+            "description": "I know he’s trying to run for Senate in Maine as an Independent, but let’s offer him our nomination for Maine Senate, in exchange for joining the party and running our campaign in Maine and New Hampshire. \n"
         }
     },
     {
@@ -752,7 +752,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6093,
         "fields": {
             "question": 1225,
-            "description": "Actually, I want to change this policy to line up with Wallis. Instead of building affordable housing, let’s build a ton of social housing in the inner city. \n"
+            "description": "No, although his social views are on par with mine, his NIMBY agenda, as well as his, uh, tax issues, from last elections might hurt our campaign more than help.\n"
         }
     },
     {
@@ -760,7 +760,7 @@ campaignTrail_temp.answers_json = [
         "pk": 41594,
         "fields": {
             "question": 1225,
-            "description": "I guess we’ll have to change. Say that we'll still build affordable housing, but we’ll do it through building housing in the outer suburbs, and we’ll give incentives to the private sector for making these houses affordable.\n"
+            "description": "No, although his social views are on par with mine, his NIMBY agenda, as well as his, uh, tax issues, from last elections might hurt our campaign more than help.\n"
         }
     },
     {
@@ -1009,6 +1009,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1203,
             "description": "Housing prices may seem like an important issue, but the bigger issue is renting, especially for young people who can’t afford a house yet. A Pathirana government will deal with corrupt landlords efficiently and forcefully.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42890,
+        "fields": {
+            "question": 1225,
+            "description": "I know he’s trying to run for Senate in Maine as an Independent, but let’s offer him our support in the race for Maine Senate, in exchange for joining the party and running our campaign in Maine and New Hampshire. \n"
         }
     }
 ]
@@ -5353,7 +5361,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 1155,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.9
         }
     },
     {
@@ -6361,7 +6369,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 303,
             "state": 1155,
-            "state_multiplier": 7
+            "state_multiplier": 1
         }
     }
 ]
@@ -6463,8 +6471,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 6093,
             "candidate": 300,
-            "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "affected_candidate": 301,
+            "global_multiplier": -0.0025
         }
     },
     {
@@ -6845,16 +6853,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 300,
             "affected_candidate": 300,
             "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 42654,
-        "fields": {
-            "answer": 6092,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "global_multiplier": -0.002
         }
     },
     {
@@ -7449,16 +7447,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 42864,
-        "fields": {
-            "answer": 41594,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "global_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 42868,
         "fields": {
             "answer": 6052,
@@ -7602,16 +7590,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 42863,
-        "fields": {
-            "answer": 41594,
-            "issue": "110",
-            "issue_score": 0.09,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 42869,
         "fields": {
             "answer": 6008,
@@ -7627,6 +7605,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 6009,
             "issue": 114,
             "issue_score": 0.9,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 42888,
+        "fields": {
+            "answer": 6092,
+            "issue": "110",
+            "issue_score": -0.001,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 42893,
+        "fields": {
+            "answer": 42890,
+            "issue": "110",
+            "issue_score": 0.1,
             "issue_importance": 1
         }
     }
@@ -8273,24 +8271,13 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 42865,
-        "fields": {
-            "answer": 41594,
-            "state": 1128,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "state_multiplier": 0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 42866,
         "fields": {
             "answer": 41594,
             "state": 1118,
             "candidate": 300,
             "affected_candidate": 300,
-            "state_multiplier": 0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -8398,6 +8385,61 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42069,
             "state": 1111,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42884,
+        "fields": {
+            "answer": 6092,
+            "state": 1118,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42886,
+        "fields": {
+            "answer": 6092,
+            "state": 1128,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42887,
+        "fields": {
+            "answer": 6092,
+            "state": 1137,
+            "candidate": 300,
+            "affected_candidate": 300,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42889,
+        "fields": {
+            "answer": 6093,
+            "state": 1118,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "state_multiplier": 0.4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42892,
+        "fields": {
+            "answer": 42890,
+            "state": 1118,
             "candidate": 300,
             "affected_candidate": 300,
             "state_multiplier": 0.05
@@ -8808,7 +8850,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6092,
             "candidate": 300,
-            "answer_feedback": "Randan knows what he was getting into, however he says he won’t campaign on your housing policy. This will hurt you in the VP debates later on. \n"
+            "answer_feedback": "I know he’s trying to run for Senate in Maine as an Independent, but let’s offer him our nomination for Maine Senate, in exchange for joining the party and running our campaign in Maine and New Hampshire. \n"
         }
     },
     {
@@ -8817,7 +8859,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6093,
             "candidate": 300,
-            "answer_feedback": "With Wallis’ support, this gets through both houses very easily, and is popular with the poorest and most vulnerable citizens. However, this also could have been done over the last four years, and Wallis looks like the big winner here.\n"
+            "answer_feedback": "Cerantola is disappointed, and after lengthy negotiations joins Oliver Mees’ American Unity party. This will likely cost you Maine, but will please your economic base, and Wallis to some extent. \n"
         }
     },
     {
@@ -8826,7 +8868,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 41594,
             "candidate": 300,
-            "answer_feedback": "This is one of your key policies, and you’re getting rid of it like this! Randan and the NIMBY’s are happy, but your base - not so much.\n"
+            "answer_feedback": "Cerantola understands your position, and chooses to lay low nationwide, whilst running for the Senate position.\n"
         }
     },
     {
@@ -9286,6 +9328,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 42855,
             "candidate": 300,
             "answer_feedback": "This is quite a strong statement, but might work if you’ve decided to take a turn to the right.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42891,
+        "fields": {
+            "answer": 42890,
+            "candidate": 300,
+            "answer_feedback": "Cerantola gives a weak endorsement to your campaign, but says that he won’t campaign as he needs to put all of his focus into his senate race. \n"
         }
     }
 ]
