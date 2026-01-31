@@ -291,7 +291,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Well, well, well. Whilst he never would have consented to forming government with Daniel, Chris Wallis and the Liberal Socialists would consider being part of your campaign. It would require strong economic concessions, such as supporting state owned energy, healthcare, grocery stores and more, but won't cost you any room socially. If you do this, the working class, unions, and big business will all ditch your campaign, but Wallis is such a strong figure that it might be worth it. Also, don't expect any help from Rogers either. </p>",
+            "description_as_running_mate": "<p>Well, well, well. Whilst he never would have consented to forming government with Daniel, Chris Wallis and the Liberal Socialists would consider being part of your campaign. It would require strong economic concessions, such as supporting state owned energy, healthcare, grocery stores and more, but won't cost you any room socially. If you do this, the working class, unions, and big business will all ditch your campaign, but Wallis is such a strong figure that it might be worth it. Wallis isn't a good debater either. Also, don't expect any help from Rogers either. </p>",
             "candidate_score": 1,
             "running_mate": true
         }
