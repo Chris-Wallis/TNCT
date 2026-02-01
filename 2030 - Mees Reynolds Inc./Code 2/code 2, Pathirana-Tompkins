@@ -193,7 +193,7 @@ campaignTrail_temp.questions_json = [
         "pk": 41812,
         "fields": {
             "priority": 10,
-            "description": "It’s time for the Second Vice Presidential Debate, yet again being held by the BBC, however the location is in Detroit, Michigan. There are only three invitees - Reynolds, Tompkins and Roberts. How will you help Charlie prepare, and what approach would you like him to take?\n",
+            "description": "It’s time for the Second Vice Presidential Debate, yet again being held by the BBC, however the location is in Detroit, Michigan. There are only three invitees - Reynolds, Tompkins and Roberts. How will you help Joel prepare, and what approach would you like him to take?\n",
             "likelihood": 1
         }
     },
@@ -824,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 41952,
         "fields": {
             "question": 41890,
-            "description": "Charlie and I will campaign hard in New Mexico and Colorado.\n"
+            "description": "Joel and I will campaign hard in New Mexico and Colorado.\n"
         }
     },
     {
@@ -840,7 +840,7 @@ campaignTrail_temp.answers_json = [
         "pk": 42069,
         "fields": {
             "question": 41890,
-            "description": "Let’s campaign hard with Charlie in Nevada, before ramping up our attack on the heart of the American Unity party, Florida.\n"
+            "description": "Let’s campaign hard with Joel in Nevada, before ramping up our attack on the heart of the American Unity party, Florida.\n"
         }
     },
     {
@@ -9863,7 +9863,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42011,
             "candidate": 300,
-            "answer_feedback": "You, Charlie, and surprise guest Zohran Mamdani campaign your glutes out in those two states, meeting everybody from young, African-Americans in Savannah to veterans in Buies Creek. You’ll take a hit else elsewhere, but you’ve made humongous gains here. You then visit New York with Mamdani for a day.\n"
+            "answer_feedback": "You, Joel, and surprise guest Zohran Mamdani campaign your glutes out in those two states, meeting everybody from young, African-Americans in Savannah to veterans in Buies Creek. You’ll take a hit else elsewhere, but you’ve made humongous gains here. You then visit New York with Mamdani for a day.\n"
         }
     },
     {
