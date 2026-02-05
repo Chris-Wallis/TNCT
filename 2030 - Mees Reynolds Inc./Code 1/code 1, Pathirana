@@ -454,7 +454,7 @@ jet_data = {
     "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
     "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
     "endingTextColor": "#000000",
-    "customQuote": ""
+    "customQuote": "I will be your Founding Father - Santhush A. Pathirana"
 }
 
 //#startcode
@@ -478,3 +478,4 @@ document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dda1c4!important;}</style>";
 
 //#endcode
+
