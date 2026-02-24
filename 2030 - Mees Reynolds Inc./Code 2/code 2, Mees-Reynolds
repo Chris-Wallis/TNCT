@@ -536,7 +536,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6048,
         "fields": {
             "question": 1212,
-            "description": "I’ve done quite a few of these by now, minimal preparation should be fine. Let’s not take any unnecessary risks, and just go one question at a time.  \n"
+            "description": "I’ve done quite a few of these by now, minimal preparation should be fine. Let’s not take any unnecessary risks, and just go one question at a time. \n"
         }
     },
     {
@@ -5407,7 +5407,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 301,
             "state": 1100,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.45
         }
     },
     {
@@ -5614,7 +5614,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 301,
             "state": 1123,
-            "state_multiplier": 1
+            "state_multiplier": 0.5
         }
     },
     {
@@ -9601,7 +9601,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6011,
             "candidate": 300,
-            "answer_feedback": "Your energy policy is positively received by everybody except diehard environmentalists.  \n"
+            "answer_feedback": "Your energy policy is positively received by everybody except diehard environmentalists. \n"
         }
     },
     {
@@ -10051,7 +10051,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42817,
             "candidate": 300,
-            "answer_feedback": "This is a good, liberal answer that will motivate your base, whilst keeping the GWA onside.\n"
+            "answer_feedback": "Good choice. "
         }
     },
     {
