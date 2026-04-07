@@ -1,0 +1,252 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "Whilst many expected Holly Brennan’s first term to be a disaster, nobody expected it to be to this length. In the first year, mass protests led to Brennan’s police, known as the Brennanites, assassinating former President Daniel Rogers in his California house, and Oliver Mees, his 2026 and 2030 opponent, passed away in hospital from an unknown incident. \n\nOn the politics front, Brennan’s regime has deported and/or killed over 50 million Latino American Citizens, 35 million African-Americans, and over 15 million non-white immigrants. Through this, she has lost her House and Senate majorities through defections, and her VP Robbie Pilato resigned, and was replaced by Thomas Rousseau. \n\nIn response, Moderates and Progressives have put their support behind the Reynolds-Pathirana ticket, under the New Hope Banner, supported by many other politicians from the Old Guard, such as Mamdani, Newsom, Buttigieg (before his death) and even some right-wing politicians. Most of the New Guard, from Cerantola to Wallis, are also supporting this campaign, whilst remaining a member of their old parties. \n\n",
+            "image_url": "https://i.postimg.cc/zXFrN83m/Brennan-(fire).jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2034"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Macsen R. ",
+            "last_name": "Reynolds",
+            "election": 21,
+            "party": "New Hope",
+            "state": "Florida",
+            "priority": 2,
+            "description": "Our only hope. The former VP candidate for Mees in 2026 and 2030 was voted to be the unanimous candidate for President at the 2034 Unity Convention in San Diego, and now has the hopes of the world on his rather pale shoulders. With no minority voters, it will be an uphill trek for Reynolds, especially with an arrest warrant for him, and Brennan's attempted Midterm rigging, which demolished her margin in the House & Senate.<p>Good luck, Mr Reynolds. You're going to need it. ",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/QMKLS48n/Macsen.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to media and America alike, you have won the 2026 US Presidential Election. As an independent president, you will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Oliver Mees, you'll need it.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>Although you didn't expect to win, nobody thought you'd lose this badly. From here, you can run again in 2030, or run in your home state of Massachusetts for Senate or Governor. The choice is yours.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>If you and the Liberal Socialist combined have 270 votes, you can get them onside if you promise to run a left-wing economic campaign. This will piss off your base so much, however, that many would say the best decision is the concede, and let Daniel work with Wallis and/or Cerantola, and pick up the scraps in 2030.</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Holly N. P.",
+            "last_name": "Brennan",
+            "election": 21,
+            "party": "Conservative",
+            "state": "Alabama",
+            "priority": 4,
+            "description": "I think I said it all in the introduction. You shouldn't be here. You're old, you're evil, and you're a traitor to America. Nevertheless, this should be an easy election to win, thanks to your \"strong\" immigration and crime policy. There shouldn't really be a need to rig this election, but the option is always there...",
+            "color_hex": "#0300ad",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/j2dZ3260/Holly.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>What the actual fuck. What just happened. You're... the president? You'll have an angry, united Congress against you, but you'll try your best. Good luck!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>This was expected. You join Ross Perot, Gary Johnson, George Wallace and other great men who have had failed third party candidacies. From here, you can run in 2030, run for Maine Senator or Governor, or join the Progressive Party in an Alliance. The choice is yours. </p>",
+            "no_electoral_majority_message": "<h3>No candidate has a majority.</h3><p>Chris and Oliver won't work with you, but Daniel will. If the two of you can form a EC majority, you may pinch the Vice Presidency, but that is unlikely. Otherwise,  you can run in 2030, run for Maine Senator or Governor, or join the Progressive Party in an Alliance. The choice is yours. Maybe if you let Oliver Mees sit in the car with you on the way back from Year 9 Camp, he may have agreed to let you be VP, but alas.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Santhush A.",
+            "last_name": "Pathirana",
+            "election": 21,
+            "party": "Progressive",
+            "state": "Pennsylvania",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/y8XscrNT/Santhush.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "+ Extremely popular in the Midwest, great at getting the message out. Very well liked nationwide. Survived multiple assassination attempts last year.\n<p>\n- Very vulnerable to being murdered during the campaign, cannot leave his house, even if disguised. Unpopular with donors, and in the Plains. ",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Randan D. Y.",
+            "last_name": "Cerantola",
+            "election": 21,
+            "party": "Green",
+            "state": "Maine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00993b",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/gjn2Ky7b/Randan.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "+ Will help you immensely with donors and the upper class. Geographically,\nyou'll receive a slight boost in New England, and along the West Coast.\n<p>\n- Won't help you that much in the Midwest, or in the South.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Chris A. ",
+            "last_name": "Wallis",
+            "election": 21,
+            "party": "Liberal Socialists",
+            "state": "Washington",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffae00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/tTF54Pk6/Chris.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "+ Will help you in the Plains, and can help you in Wisconsin, Iowa and Minnesota.\n<p>\n- Is utterly useless to you in the Midwest, or in New York.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160102,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 136084,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 164778,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50000
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Chris Wallis, Daniel Rogers"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2034"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#ff0000",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#ff0000",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ff0000";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ffffff";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ff0000!important;}</style>";
+
+//#endcode
