@@ -1,0 +1,426 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "After winning Florida by just 193 votes against Oliver Mees, the Rogers/Pathirana ticket won a majority of the electoral college. In the Senate, the Progressive Party’s policy has been passed with the help of the Liberal Socialists, who combine for a strong majority. In the House, the Greens are also needed for legislation, who have been surprisingly co-operative. However, relations between the Progressives and the Liberal Socialists have slowly waned, finally reaching a climax, with the Lib Socs merging with America First, who have chosen Gavan Darragh, an economist from Iowa. Even in the Progressive Party itself, more liberal members have merged with the Greens and assorted Democrats to enter the Democratic Party into the presidential race, now led by Maryland's Steven O'Brien. Finally, on the right, the Republican Party are back. Led by James Vardapetyan of Califronia, he will look to gather a wide range of conservatives to win a majority. It’s anybody’s election, however Rogers and Pathirana may have too much popularity to lose this time.",
+            "image_url": "https://i.postimg.cc/6pxspLB6/oli-vs-daniel.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2030"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Daniel S.",
+            "last_name": "Rogers",
+            "election": 21,
+            "party": "Progressive",
+            "state": "California",
+            "priority": 1,
+            "description": "<p>Daniel Rogers' first stint as president looked like it was getting off to a good start, winning the midterms with Senate wins in Georgia and North Carolina. However, after implementing some extreme socialist propaganda, he alienated liberals to the extent that they want nothing to do with him. Him, and his loyal Vice President Santhush Pathirana have a long road ahead if they want to hold on to a majority. Their new stradegy - attempt to win over poorer voters across America, whilst holding on to corporate allies such as Gavin Newsom.\n<p>",
+            "color_hex": "#a500a5",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/cL7JxJy5/Daniel.png",
+            "electoral_victory_message": "<h3>You’ve done it! Against all odds in an election split four ways, you’ve pulled 270 electoral votes! Now you can look forward, past the shooting, the chaos, the revolution and start your four years in the white house. Maybe you’ll even get eight if you’re lucky, or play your cards right. Santhush becomes the first Asian-American Vice-President in US history, and you will certainly have an easy time working with him over your term. On the other hand though, the senate and house aren’t going to be easy. Split five ways and completely lopsided, good luck working through any real legislation without some serious compromise or persuasive actions. None-the-less, this is a monumental election in US history, for you are the first ever candidate this far to the left, and will shake up the political system massively in the coming four years. Good job Mr. President! Cabinet picks: Secretary of State: Gavin Newsom, Secretary of the Treasury: Cooper Maxwell, Secretary of Defense: Joe D. Dowdy, Attorney General: Charlie R. Aston, Secretary of the Interior: Sean E. Miller, Secretary of Agriculture: Mike Espy, Secretary of Commerce: Barack Obama, Secretary of Labor: Freddie R. Marshall, Secretary of Health and Human Services: Joe Califano\n</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2026 election.</h3><p>Oliver Mees has won a majority of the electoral college. Prepare for four years of moderate, independent rule. You can still likely block him in the house, with the help of the Liberal Socialist. Santhush Pathirana will most likely run in 2030, unless you decide to run again, which in that case the nomination is yours.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has a majority.</h3><p>Both the Liberal Socialists and the Greens are willing to form government. To form government with the Greens, you will need to move leftwards of social policy, especially on environmental policy, hurting you in the Midwest. To gain the support of the Liberal Socialists, you will need to make Wallis VP, and make strong economic moves, or risk losing their support in the House. Good luck!</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "James V. ",
+            "last_name": "Vardapetyan",
+            "election": 21,
+            "party": "Republican",
+            "state": "California",
+            "priority": 2,
+            "description": "<p>Frequently known as 'Big Vard' J. V. Vardapetyan is an Armenian-American lawyer living in Glendale, California. After joining the Republican Party at 19, he was a strong supporter of Mitt Romney, and subsequently Donald Trump in his first term. Through this, he won a contested 2018 GOP primary for California govemor, where he lost to Gavin Newsom comprehensively. Since then, he moved his attention to the Glendale Mayoral race, where he narrowly won in 2019 before being beaten in 2020 by an 11% margin. Since then, he has ran for House twice, losing both times despite Trump's endorsement. During the revolution, he created distance between him and  the Trump regime, before sitting 2026 out entirely. Since then, he has been one of your most vocal critics online, making a name for himself on Christian podcasts and on CBS. He will naturally gather support in the South, including Florida and Texas, but has little charisma or national exposure. He's also a poor speaker and debater, but does well with donors.\n<p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/xdMnhcbb/Screenshot-20260825-091342-Google-2.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to media and America alike, you have won the 2026 US Presidential Election. As an independent president, you will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Oliver Mees, you'll need it.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>Although you didn't expect to win, nobody thought you'd lose this badly. From here, you can run again in 2030, or run in your home state of Massachusetts for Senate or Governor. The choice is yours.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>If you and the Liberal Socialist combined have 270 votes, you can get them onside if you promise to run a left-wing economic campaign. This will piss off your base so much, however, that many would say the best decision is the concede, and let Daniel work with Wallis and/or Cerantola, and pick up the scraps in 2030.</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Gavan C.",
+            "last_name": "Darragh",
+            "election": 21,
+            "party": "Unity",
+            "state": "Iowa",
+            "priority": 3,
+            "description": "<p>An economist from Iowa, Darragh was elected as the Senator for Iowa in 2026. He quickly became known as a fiery speaker, attacking Rogers for being a 'wannabe Karl Marx' and a 'dirty communist', earning both praise and disgust from his party. He won the primary in an upset against Macsen Reynolds, thanks to a demolition job in the Plains and Midwest. His strength is in both the Midwest and Plains, with his plans to subsidise farmers doing well in the country. Whilst many workers are concerned about some of his anti-union stances, he is also a builder, and is known for his long-term infrastructure view. One area of struggle for Darragh is women, as well as minority voters  (but to a lesser extent). If he can unite  this coalition of workers and farmers, he could be on track for a majority, especially if he can push into the South.",
+            "color_hex": "#009439",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/kG0BKkr7/unnamed-(1).jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In a shock to media and America alike, you have won the 2026 US Presidential Election. Nobody thought a socialist could do it, but nobody thought so many things. You will have to work with a deeply divided Congress, but if anyone can do it, it's you. Good luck Chris Wallis, you'll need it.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>But all is not lost. You can still run for Governor of Washington, or run again in 2030. Alternatively, both the Progressive Party and the Democrats have said they will back your campaign for Governor, or you could join as a possible 2030 VP. Needless to say, you have free reign. Good luck Chris.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has reached a majority.</h3><p>Depending on who has the numbers, you can work with any party. Let's see who offers you the Vice Presidency, and strong economic pressure.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Steven ",
+            "last_name": "O'Brien",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Maryland",
+            "priority": 4,
+            "description": "<p>The term-limited Governor of Maryland, Steven O'Brien is an interesting politician. His stances vary from left-wing to centre-right, but he is predominantly known as a pragmatic liberal and a big believer in the right of law. Before becoming Governor, he was the US ambassador to the United Nations under Obama, and the ambassador to Vietnam under Biden. He has appeal to a wide range of voters, however is often not the most vibrant or interesting politician, which hurt him against Charlie Aston in the primary, which he one just narrowly. His strength will be in his home state, as well as New England, but has little chance of actually getting to 270. ",
+            "color_hex": "#0300ad",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/RCHptynP/unnamed-(2).jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>What the actual fuck. What just happened. You're... the president? You'll have an angry, united Congress against you, but you'll try your best. Good luck!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>This was expected. You join Ross Perot, Gary Johnson, George Wallace and other great men who have had failed third party candidacies. From here, you can run in 2030, run for Maine Senator or Governor, or join the Progressive Party in an Alliance. The choice is yours. </p>",
+            "no_electoral_majority_message": "<h3>No candidate has a majority.</h3><p>Chris and Oliver won't work with you, but Daniel will. If the two of you can form a EC majority, you may pinch the Vice Presidency, but that is unlikely. Otherwise,  you can run in 2030, run for Maine Senator or Governor, or join the Progressive Party in an Alliance. The choice is yours. Maybe if you let Oliver Mees sit in the car with you on the way back from Year 9 Camp, he may have agreed to let you be VP, but alas.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Santhush A.",
+            "last_name": "Pathirana",
+            "election": 21,
+            "party": "Progressive",
+            "state": "Pennsylvania",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/y8XscrNT/Santhush.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "+ Incumbent. Very good with diverse voters, especially Indians and Black voters. Will help in the Industrial Midwest, especially in his home state of Pennsylvania. <p> - Poor debater, doesn't perform well with donors.\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Macsen L.",
+            "last_name": "Reynolds",
+            "election": 21,
+            "party": "Unity",
+            "state": "Florida",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/QMKLS48n/Macsen.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p> + Very popular, especially in Florida and Georgia. Does well with female voters, and is known for his rapturous college rallies in Florida. Does well with both Democrats and Republicans. <p> - Your primary with him was contentious, you'll need to convince him. Also linked to the party's 2026 performance.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 310,
+        "fields": {
+            "first_name": "Athan",
+            "last_name": "Komninos",
+            "election": 21,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/CMcZf71k/Athan.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>+ Will help you with Jewish and European Conservative voters, as well as donors.<p> - Unlikeable to most of the lower and middle classes, mostly same problems as you.\n<p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 313,
+        "fields": {
+            "first_name": "Jorja",
+            "last_name": "Nowak",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Vermont",
+            "priority": 14,
+            "description": " ",
+            "color_hex": "#0400ff",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "TBC",
+            "electoral_victory_message": " ",
+            "electoral_loss_message": " ",
+            "no_electoral_majority_message": " ",
+            "description_as_running_mate": "+ Popular with women, progressive Dems and donors. Is also slightly stronger with young voters, especially college educated voters.\n<p>\n- Adds no geographical advantage to the ticket. Has little edge with traditional swing voters, along with the subsistence class, and she also doesn't have a national profile outside of New England. ",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Randan D. Y.",
+            "last_name": "Cerantola",
+            "election": 21,
+            "party": "Green",
+            "state": "Maine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00993b",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/gjn2Ky7b/Randan.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "+ Well known nation-wide due to his 2026 campaign. Will secure New England, and you both have similar views, albeit for different reasons. Will help you with environmentalist groups, and is a solid debater. <p> - This ruins your chances in the Midwest, and pretty much most places for that matter.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Chris A.",
+            "last_name": "Wallis",
+            "election": 21,
+            "party": "Unity",
+            "state": "Washington",
+            "priority": 1,
+            "description": "<p></p>",
+            "color_hex": "#7d7d7d",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "+ Will win you Washington, and give you a great boost in the Plains, even stretching to Wisconsin and Iowa. Does well with Latino voters as well. <p> - Very bad debater, not charismatic at all. Will make your campaign two people known for former anti-union stances, as well as also being poor with women. No support with upper class voters or donors. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Sean E.",
+            "last_name": "Miller",
+            "election": 21,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a80000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/QxD7pCkM/Sean.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "+ A similar style of moderate Republican, albeit in the opposite way. Also anti-Trump. Will help in the Plains against the Darragh/Wallis ticket. <p> - Not charismatic, bad speaker. Also, the two of you loathe each other, and you had a very aggressive primary between the two of you. Also not very well known.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 205,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 309
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 206,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 310
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 179334,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 313
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 147957,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 167877,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109785,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 50001
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Chris Wallis, Daniel Rogers"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2030"
+    }
+]
+
+jet_data = {
+    "headerColor": "#70004d",
+    "windowColor": "#e1d5de",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#dda1c4",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#70004d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e1d5de";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dda1c4!important;}</style>";
+
+//#endcode
